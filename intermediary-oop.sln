@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise", "Enterprise\Enterprise.csproj", "{D9B0CC4F-DC73-456D-8D48-D62302113BBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterprise", "Enterprise\Enterprise.csproj", "{D9B0CC4F-DC73-456D-8D48-D62302113BBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork", "SocialNetwork\SocialNetwork.csproj", "{52ED8523-6492-44EA-A0BE-5FA32C99B54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket", "Supermarket\Supermarket.csproj", "{E0E24B91-19FD-49D4-B68D-E4D5F19F5148}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D9B0CC4F-DC73-456D-8D48-D62302113BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B0CC4F-DC73-456D-8D48-D62302113BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B0CC4F-DC73-456D-8D48-D62302113BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52ED8523-6492-44EA-A0BE-5FA32C99B54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ED8523-6492-44EA-A0BE-5FA32C99B54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ED8523-6492-44EA-A0BE-5FA32C99B54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ED8523-6492-44EA-A0BE-5FA32C99B54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E24B91-19FD-49D4-B68D-E4D5F19F5148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E24B91-19FD-49D4-B68D-E4D5F19F5148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E24B91-19FD-49D4-B68D-E4D5F19F5148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E24B91-19FD-49D4-B68D-E4D5F19F5148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
