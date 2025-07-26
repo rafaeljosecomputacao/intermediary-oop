@@ -1,0 +1,199 @@
+Enumeration and composition
+
+Exercise 1:
+Project: Enterprise
+Read data for a worker with some contracts. Then request of the user a month and
+show what was the salary of the worker in that month.
+
+Example:
+Enter department's name: Design
+
+Enter worker data:
+Name: Julie Wilson
+Level (Junior/MidLevel/Senior): MidLevel
+Base salary: 1200.00
+
+How many contracts to this worker? 3
+
+Enter #1 contract data:
+Date (DD/MM/YYYY): 10/06/2025
+Value per hour: 30.00
+Hours: 14
+
+Enter #2 contract data:
+Date (DD/MM/YYYY): 12/07/2025
+Value per hour: 50.00
+Hours: 20
+
+Enter #3 contract data:
+Date (DD/MM/YYYY): 20/07/2025
+Value per hour: 80.00
+Hours: 10
+
+Enter month and year to calculate income (MM/YYYY): 07/2025
+Name: Julie Wilson
+Department: Design
+Income for 07/2025: 3000.00
+
+Exercise 2:
+Project: SocialNetwork
+Create a social network project that makes posts and comments.
+
+Example:
+Traveling to New York
+20 Likes - 14/07/2025 14:02:34
+I'm going to visit this wonderful country
+Comments:
+Have a nice trip!
+Wow that's awesome!
+
+Good night guys
+12 Likes - 20/07/2025 22:00:16
+See you tomorrow
+Comments:
+Good night!
+May the force be with you!
+
+Exercise 3:
+Project: Supermarket
+Read data from an order with some items. Show a order summary.
+
+Example:
+Enter cliente data:
+Name: Emma Miller
+Email: emma@email.com
+Birth date (DD/MM/YYYY): 21/07/2007
+
+How many items to this order? 2
+Enter #1 item data:
+Product name: Computer
+Product price: 1000.00
+Quantity: 1
+Enter #2 item data:
+Product name: TV
+Product price: 800.00
+Quantity: 2
+
+Order summary:
+Order moment: 22/07/2025 22:07:14
+Order status: Processing
+Client: Emma Miller (21/07/2007) - emma@email.com
+Order items:
+Computer, $1000.00, Quantity: 1, Subtotal: $1000.00
+TV, $800.00, Quantity: 2, Subtotal: $1600.00
+Total price: $2600.00
+
+Inheritance and polymorphism
+
+Exercise 4:
+Project: Store
+Write a program to read the data from some products. Show the price tag of each
+product. Every product has a name and price. Imported products have a customs
+fee and used products have a manufacturing date.
+
+Example:
+Enter the number of products: 3
+
+Product #1 data:
+Common, imported or used (c/i/u)? i
+Name: Tablet
+Price: 260.00
+Customs fee: 20.00
+
+Product #2 data:
+Common, imported or used (c/i/u)? c
+Name: Notebook
+Price: 1000.00
+
+Product #3 data:
+Common, imported or used (c/i/u)? u
+Name: Iphone
+Price: 400.00
+Manufacture date (DD/MM/YYYY): 14/05/2025
+
+Price tags:
+Tablet $280.00 (Customs fee: $20.00)
+Notebook $1000.00
+Iphone (Used) $400.00 (Manufacture date: 14/05/2025)
+
+Exercise 5:
+Project: Accounting
+Write a program to read the data of some taxpayers. They can be individual or company
+entities. Show the amount of tax paid by each one and total tax collected. Individual
+data are name, anual income and health expenses. Company data are name, anual income
+and number of employees.
+
+Tax calculation rules:
+Individual:
+Persons whose income was below 20000.00 pay 15% tax and persons with income
+from 20000.00 onwards pay 25% tax. If the person had health expenses, 50% of these
+expenses are deducted from the tax.
+Company:
+Companies pay 16% tax. If the company has more than 10 employees then she pays 14% tax.
+ 
+Example:
+Enter the number of tax payers: 3
+
+Tax payer #1 data:
+Individual or company (i/c)? i
+Name: Liam Mason
+Anual income: 50000.00
+Health expenditures: 2000.00
+
+Tax payer #2 data:
+Individual or company (i/c)? c
+Name: SoftHard
+Anual income: 400000.00
+Number of employees: 25
+
+Tax payer #3 data:
+Individual or company (i/c)? i
+Name: Henry David
+Anual income: 120000.00
+Health expenditures: 1000.00
+
+Taxes paid:
+Liam Mason: $11500.00
+SoftHard: $56000.00
+Henry David: $29500.00
+
+Total taxes: $97000.00
+
+Exception handling
+
+Exercise 6:
+Project: Hotel
+Write a program to read the data from a hotel reservation (room number, check-in
+date and check-out date) and display the reservation data with its duration in days.
+
+Update the reservation. Display it again with the updated data. Reservation changes
+can only be made for future dates. The check-out date must be after the check-in date.
+
+Example:
+Room number: 1434
+Check-in date (dd/MM/yyyy): 20/09/2025
+Check-out date (dd/MM/yyyy): 25/09/2025
+Reservation: Room 1434, check-in: 20/09/2025, check-out: 25/09/2025, 5 nights
+
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 26/09/2025
+Check-out date (dd/MM/yyyy): 28/09/2025
+Reservation: Room 1434, check-in: 26/09/2025, check-out: 28/09/2025, 2 nights
+
+Exercise 7:
+Project: Bank
+Write a program to read data from a bank account. Make a withdrawal from this
+bank account and show the new balance.
+
+A withdrawal cannot be made if there is no balance in the account or if the
+withdrawal amount is greater than the account's withdrawal limit.
+
+Example:
+Enter account data:
+Number: 1156
+Holder: James Smith
+Initial deposit: 500.00
+Withdraw limit: 300.00
+
+Enter amount for withdraw: 100.00
+New balance: 400.00
